@@ -4,6 +4,12 @@ API REST para consultar horários livres e reservar atendimentos sem conflito en
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js_24-339933?logo=nodedotjs&logoColor=white)
 
+## Veja funcionando
+
+![Testes e chamadas reais à API: a segunda reserva é recusada com HTTP 409 e os horários se atualizam.](docs/api.png)
+
+*Testes e chamadas reais à API: a segunda reserva é recusada com HTTP 409 e os horários se atualizam.*
+
 ## O problema
 
 Clínicas, salões e estúdios perdem tempo marcando horário por telefone, e a agenda de papel permite dois clientes no mesmo horário. O coração de qualquer sistema de agendamento é responder duas perguntas com segurança: o que está livre e se esta reserva pode entrar.
